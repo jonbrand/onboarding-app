@@ -1,5 +1,5 @@
 main {
-    background: #f3f4f6;
+    background: var(--white);
     grid-area: main;
     overflow-y: auto;
 }
@@ -19,16 +19,16 @@ main {
     margin-right: 20px;
 }
 
-.max-greeting > h1 {
+.main-greeting > h1 {
     font-size: 24px;
-    color: #2e4a66;
+    color: var(--dark-indigo);
     margin-bottom: 5px;
 }
 
 .main-greeting > p {
     font-size: 14px;
     font-weight: 700;
-    color: #a5aaad;
+    color: var(--grey);
 }
 
 .main-cards {
@@ -42,12 +42,12 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 70px;
+    height: 90px;
     padding: 25px;
-    border-radius: 5px;
-    background-color: #FFF;
+    border-radius: 10px;
+    background-color: var(--white);
 
-    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #FFF;
+    box-shadow: 5px 5px 13px var(--dark-white), -5px -5px 13px var(--white);
 }
 
 .card-inner {
@@ -70,8 +70,8 @@ main {
 .charts-left {
     padding: 25px;
     border-radius: 5px;
-    background: #FFF;
-    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #FFF;
+    background: var(--white);
+    box-shadow: 5px 5px 13px var(--dark-white), -5px -5px 13px var(--dark-white);
 }
 
 .charts-left-title {

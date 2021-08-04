@@ -1,12 +1,12 @@
 .navbar {
-    background: #FFF;
+    background: var(--white);
     grid-area: nav;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 30px 0 30px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid var(--light-grey);
 }
 
 .nav-icon {
@@ -15,20 +15,20 @@
 
 .nav-icon > i {
     font-size: 26px;
-    color: #a5aaad;
+    color: var(--dark-indigo);
 }
 
 .navbar-left > a {
     margin-right: 30px;
     text-decoration: none;
-    color: #a5aaad;
+    color: var(--grey);
     font-size: 15px;
     font-weight: 700;
 }
 
 .navbar-left .active-link {
-    color: #265acc;
-    border-bottom: 3px solid #265acc;
+    color: var(--dark-purple);
+    border-bottom: 3px solid var(--dark-purple);
     padding-bottom: 12px;
 }
 
@@ -43,12 +43,12 @@
     text-decoration: none;
 }
 
-.navbar-right > a > i {
-    color: #a5aaad;
+.navbar-right > a > img {
+    color: var(--light-grey);
     font-size: 16px;
     border-radius: 50px;
-    background: #FFF;
-    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #FFF;
+    background: var(--dark-purple);
+    box-shadow: 2px 2px 5px var(--light-grey), -2px -2px 5px var(--white);
     padding: 7px;
 }
 

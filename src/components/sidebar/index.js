@@ -10,7 +10,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
             <div className="sidebar-title">
                 <div className="sidebar-img">
                     <img src={logo} alt="logo" />
-                    <h1>Nexus.JR</h1>
+                    <h1>Jonatas Brandão</h1>
                 </div>
 
                 <i
@@ -25,26 +25,26 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                     <i class="fa fa-minus-square"></i>
                     <a href="#top">Home</a>
                 </div>
-                <h2>ADMIN</h2>
+                <h2>GERÊNCIA</h2>
                 <div className="sidebar-link">
-                    <i class="fa fa-tachometer"></i>
-                    <a href="#top">Area administrativa</a>
+                    <i class="fa fa-calendar-check-o"></i>
+                    <a href="#top">Agenda</a>
                 </div>
                 <div className="sidebar-link">
                     <i className="fa fa-building"></i>
-                    <a href="#top">Lojas</a>
+                    <a href="#top">Filiais</a>
                 </div>
                 <div className="sidebar-link">
-                    <i className="fa fa-archive"></i>
-                    <a href="#top">Produtos</a>
+                    <i className="fa fa-user-circle"></i>
+                    <a href="#top">Funcionários</a>
                 </div>
                 <div className="sidebar-link">
-                    <i className="fa fa-bars"></i>
-                    <a href="#top">Categorias</a>
+                    <i className="fa fa-briefcase"></i>
+                    <a href="#top">Diretoria</a>
                 </div>
                 <div className="sidebar-link">
-                    <i className="fa fa-cutlery"></i>
-                    <a href="#top">Pedidos</a>
+                    <i className="fa fa-line-chart"></i>
+                    <a href="#top">Relatórios</a>
                 </div>
                 <h2>PESSOAS</h2>
                 <div className="sidebar-link">
@@ -57,11 +57,11 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                 </div>
                 <div className="sidebar-link">
                     <i className="fa fa-money"></i>
-                    <a href="#top">Pagamentos e custos</a>
+                    <a href="#top">Orçamento</a>
                 </div>
                 <div className="sidebar-link">
-                    <i className="fa fa-tasks"></i>
-                    <a href="#top">A Plataforma</a>
+                    <i className="fa fa-cog"></i>
+                    <a href="#top">Configurações</a>
                 </div>
                 <div className="sidebar-link">
                     <i className="fa fa-file-alt"></i>

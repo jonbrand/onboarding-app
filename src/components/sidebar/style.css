@@ -1,5 +1,5 @@
 #sidebar {
-    background: #020509;
+    background: var(--dark-blue);
     grid-area: sidebar;
     overflow-y: auto;
     padding: 20px;
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #f3f4f6;
+    color: var(--black);
     margin-bottom: 30px;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .sidebar-menu > h2 {
-    color: #3ea175;
+    color: var(--white);
     font-size: 16px;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -46,47 +46,49 @@
 }
 
 .sidebar-link {
-    color: #f3f4f6;
+    display: flex;
+    color: var(--dark-indigo);
     padding: 10px;
     border-radius: 3px;
     margin-bottom: 5px;
 }
 
 .active-menu-link {
-    background: rgba(62, 161, 117, 0.3);
-    color: #3ea175;
+    background: var(--indigo);
+    color: var(--white);
 }
 
 .active-menu-link a {
-    color: #3ea175 !important; 
+    color: var(--white) !important; 
 }
 
 .sidebar-link > a {
     text-decoration: none;
-    color: #a5aaad;
+    color: var(--white);
     font-weight: 700;
 }
 
 .sidebar-link a:focus {
     padding: 7px;
-    background: rgba(62, 161, 117, 0.3);
+    background: var(--indigo);
     border-radius: 3px;
 }
 
 .sidebar-link > i {
     margin-right: 10px;
     font-size: 18px;
+    width: 20px;
 }
 
 .sidebar-logout {
     margin-top: 20px;
     padding: 10px;
-    color: #e65061;
+    color: var(--dark-red);
 }
 
 .sidebar-logout > a {
     text-decoration: none;
-    color: #e65061;
+    color: var(--dark-red);
     font-weight: 700;
     text-transform: uppercase;
 }

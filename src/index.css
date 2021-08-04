@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
+:root {
+  --white: #FFF;
+  --dark-white: #ededed;
+  --black: #000000;
+  --grey: #969696;
+  --dark-grey: #121212;
+  --light-grey: #d1d0d0;
+  --dark-blue: #377FFB;
+  --indigo: #8C9EFF;
+  --dark-indigo: #1a237e;
+  --dark-red: #961414;
+  --dark-purple: #6a1b9a;
+}
+
 /* Scrollbar */
 
 ::webkit-scrollbar {
@@ -34,7 +48,7 @@ body {
 }
 
 .text-primary-p {
-  color: #a5aaad;
+  color: var(--grey);
   font-size: 14px;
   font-weight: 700;
 }
@@ -44,7 +58,7 @@ body {
 }
 
 .text-title {
-  color: #469cac;
+  color: var(--dark-indigo);
 }
 
 .text-red {

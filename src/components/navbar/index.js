@@ -10,9 +10,9 @@ const Navbar = ({ sidebarOpen, openSidebar}) => {
             </div>
 
             <div className="navbar-left">
-                <a href="#top">Produtos</a>
-                <a href="#top">Usuarios</a>
-                <a href="#top" className="active-link">Admin</a> 
+                <a href="#top" className="active-link">Painel</a>
+                <a href="#top">Estatísticas</a>
+                <a href="#top" >Mensagens</a> 
             </div>
 
             <div className="navbar-right">
@@ -21,7 +21,7 @@ const Navbar = ({ sidebarOpen, openSidebar}) => {
                 </a>
 
                 <a href="#top">
-                    <i className="fa fa-clock-o"></i>
+                    <i className="fa fa-bell"></i>
                 </a>
 
                 <a href="#top">
