@@ -1,6 +1,7 @@
 import './index.css';
 
 import hello from '../../assets/office.jpg';
+import Chart from '../charts/index';
 
 const Main = () => {
     return (
