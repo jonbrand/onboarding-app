@@ -5,7 +5,6 @@
     padding: 20px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-    height: 100vh;
 }
 
 .sidebar-title {
@@ -44,6 +43,7 @@
     margin-bottom: 5px;
     padding: 0 10px;
     font-weight: 700;
+    width: 100%;
 }
 
 .sidebar-link {
@@ -52,6 +52,10 @@
     padding: 10px;
     border-radius: 3px;
     margin-bottom: 5px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    width: 100%;
 }
 
 .active-menu-link {
@@ -67,12 +71,6 @@
     text-decoration: none;
     color: var(--white);
     font-weight: 700;
-}
-
-.sidebar-link a:focus {
-    padding: 7px;
-    background: var(--indigo);
-    border-radius: 3px;
 }
 
 .sidebar-link > i {
@@ -103,6 +101,7 @@
     display: inline !important;
     z-index: 9999 !important;
     left: 0 !important;
+    height: 100vh;
     position: absolute;
 }
 

@@ -1,8 +1,16 @@
+import { useState } from 'react';
 import './style.css';
 
 import avatar from '../../assets/photo.jpg';
 
 const Navbar = ({ sidebarOpen, openSidebar}) => {
+    const [selectedNavbarItemIndex, setSelectedNavbarItemIndex] = useState(0);
+
+    const navbarItems = [
+        'Painel',
+        'Estatísticas',
+        'Mensagens',
+    ];
     return (
         <nav className="navbar">
             <div className="nav-icon" onClick={() => openSidebar()}>
@@ -10,21 +18,25 @@ const Navbar = ({ sidebarOpen, openSidebar}) => {
             </div>
 
             <div className="navbar-left">
-                <a href="#top" className="active-link">Painel</a>
-                <a href="#top">Estatísticas</a>
-                <a href="#top" >Mensagens</a> 
+                {navbarItems.map((item, index) => (
+                    <a
+                        href="#teste"
+                        onClick={() => setSelectedNavbarItemIndex(index)}
+                        className={selectedNavbarItemIndex === index ? 'active-link' : ''}
+                    >{item}</a>
+                ))}
             </div>
 
             <div className="navbar-right">
-                <a href="#top">
+                <a href="#teste">
                     <i className="fa fa-search"></i>
                 </a>
 
-                <a href="#top">
+                <a href="#teste">
                     <i className="fa fa-bell"></i>
                 </a>
 
-                <a href="#top">
+                <a href="#teste">
                     <img width="30" src={avatar} alt="avatar" />
                 </a>
             </div>

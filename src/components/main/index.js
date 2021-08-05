@@ -72,7 +72,6 @@ const Main = () => {
                                 <h1>Folha de Pagamento</h1>
                                 <p>Filial: São Paulo, SP</p>
                             </div>
-                            <i className="fa fa-usd"></i>
                         </div>
                         <Chart />
                     </div>
@@ -83,12 +82,11 @@ const Main = () => {
                                 <h1>Daily Reports</h1>
                                 <p>Sao Paulo, Sao Paulo, BR</p>
                             </div>
-                            <i className="fa fa-area-chart"></i>
                         </div>
                         
                         <div className="charts-right-cards">
                             <div className="card1">
-                                <h1>Funcionários de férias</h1>
+                                <h1>Férias</h1>
                                 <p>15</p>
                             </div>
 
