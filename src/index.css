@@ -8,6 +8,7 @@
   --dark-grey: #121212;
   --light-grey: #d1d0d0;
   --dark-blue: #377FFB;
+  --marine-blue: #2e4a66;
   --indigo: #8C9EFF;
   --dark-indigo: #1a237e;
   --dark-red: #961414;
@@ -61,12 +62,16 @@ body {
   color: var(--dark-indigo);
 }
 
+.text-lightblue {
+  color: blue;
+}
+
 .text-red {
-  color: #cc3d38;
+  color: #fa4741;
 }
 
 .text-yellow {
-  color: #a98921;
+  color: #dfdc34;
 }
 
 .text-green {

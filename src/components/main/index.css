@@ -21,7 +21,7 @@ main {
 
 .main-greeting > h1 {
     font-size: 24px;
-    color: var(--dark-indigo);
+    color: var(--marine-blue);
     margin-bottom: 5px;
 }
 
@@ -40,7 +40,7 @@ main {
 
 .card {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: space-around;
     height: 90px;
     padding: 25px;
@@ -52,12 +52,25 @@ main {
 
 .card-inner {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.card-inner > span {
-    font-size: 25px;
+.card-title {
+    display: flex;
+}
+
+.card-content {
+    margin-top: 12px;
+    width: 100%;
+}
+
+.card-content > p {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.card-content > span {
+    font-size: 20px;
 }
 
 .charts {
