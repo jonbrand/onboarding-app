@@ -126,7 +126,7 @@ form > h1 {
     position: relative;
     height: 320px;
     width: 320px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .login-logo > .background-image {
@@ -137,6 +137,7 @@ form > h1 {
 }
 
 .login-logo > .center-image {
+    position: relative;
     height: 320px;
     width: 320px;
 }
