@@ -2,7 +2,9 @@ import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import './style.css';
 
-import imageBackground from '../../assets/ImageBg.png'
+import imageBackground from '../../assets/ImageBg.png';
+
+import imageBackground2 from '../../assets/ImageBg2.png';
 
 const SignIn = () => {
     const [hasError, setHasError] = useState('');
@@ -29,9 +31,9 @@ const SignIn = () => {
     return (
         <div className="signin-container">
             <div className="login-logo">
-                <img src={imageBackground} alt="Work"/>
+                <img src={imageBackground} className="center-image" alt="Work"/>
+                <img src={imageBackground2} className="background-image" alt="Circle"/>
             </div>
-
 
             <form onSubmit={handleSubmit} className="form">
                 {hasError && (
