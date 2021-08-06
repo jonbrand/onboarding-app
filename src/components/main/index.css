@@ -217,6 +217,23 @@ main {
 }
 
 @media only screen and (max-width: 980px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .main-title {
+        margin: 0 auto;
+    }
+
     .main-cards {
         grid-template-columns: 1fr;
         gap: 10px;
@@ -227,14 +244,6 @@ main {
         grid-template-columns: 1fr;
         margin-top: 30px;
         justify-content: center;
-    }
-
-    .charts-left {
-        height: fit-content;
-    }
-
-    .charts-right {
-        height: fit-content;
     }
 
     .charts-right-cards {
@@ -250,5 +259,37 @@ main {
     .card3,
     .card4 {
         width: 85%;
+    }
+
+    .card-inner {
+        align-items: center;
+    }
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .charts-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .charts-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .charts-right-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        width: 100%;
     }
 }
