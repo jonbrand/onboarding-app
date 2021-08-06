@@ -16,7 +16,7 @@ const SignIn = () => {
     function handleSubmit() {
         setHasError(false);
         const exampleCredentials = {
-            email: 'jonbrand@gmail.com',
+            email: 'user@gmail.com',
             password: '123456',
         };
 
