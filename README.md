@@ -32,7 +32,7 @@ This project consists of a dashboard page simulating data about a company's empl
 
 ## 📝 License
 
-This project is under the MIT license. See the file[LICENSE](.github/LICENSE.md) para mais detalhes.
+This project is under the MIT license. See the file [LICENSE](.github/LICENSE.md) para mais detalhes.
 
 ---
 
