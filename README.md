@@ -14,8 +14,8 @@
 
 ## ✔️ Table of Contents
 
-- [Overview](#overview)
-- [Contact](#contact)
+- [Overview](##overview)
+- [Contact](##contact)
 
 <!-- OVERVIEW -->
 
