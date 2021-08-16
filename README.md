@@ -10,13 +10,6 @@
   </a>
 </p>
 
-<!-- TABLE OF CONTENTS -->
-
-## ✔️ Table of Contents
-
-- [Overview](##overview)
-- [Contact](##contact)
-
 <!-- OVERVIEW -->
 
 ## ✨ Overview
